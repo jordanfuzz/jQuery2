@@ -157,7 +157,7 @@
 
 }
 .complete-todo-button:focus {
-    outline: none;
+     outline: none;
 }
 
 #cancel {
@@ -174,4 +174,19 @@
 
 .list-group-item {
     color: #fff;
+}
+
+.save-button {
+    opacity: 1;
+    width: 75px;
+    height: 55px;
+    border: 1px solid #F3524A;
+    background: none;
+    font-size: 14px;
+
+    color: #fff;
+}
+
+.save-button:focus {
+    outline: none;
 }
